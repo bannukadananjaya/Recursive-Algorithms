@@ -6,7 +6,7 @@ public class Q01 {
 
         if(n==0){
 
-        }
+        }cscsa
 
     }
 
