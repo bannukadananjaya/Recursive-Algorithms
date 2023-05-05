@@ -2,21 +2,18 @@ import java.util.Scanner;
 
 public class Q01 {
 
-    public void find(int n,int arr[]) {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-        for (int i = 0; i < arr.length; i++) {
-            if (n == arr[i]) {
+        int array[] = {2, 5, 6, 10, 11, 13, 15, 18, 20, 22, 23, 25};
+        System.out.println("Enter the number");
+
+        int num = sc.nextInt();
+        for (int i = 0; i < array.length; i++) {
+            if (num == array[i]) {
                 System.out.println("Value find");
                 break;
             }
         }
-    }
-
-    public static void main(String[] args) {
-        int array[] = {2,5,6,10,11,13,15,18,20,22,23,25};
-        Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
-        Q01 one = new Q01();
-        one.find(num,array);
     }
 }
