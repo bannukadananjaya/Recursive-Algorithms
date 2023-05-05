@@ -2,14 +2,12 @@ import java.util.Scanner;
 
 public class Q01 {
 
-    public void find(int n,int arr[]) {
+    public void find(int n) {
 
-        for (int i = 0; i < arr.length; i++) {
-            if (n == arr[i]) {
-                System.out.println("Value find");
-                break;
-            }
+        if(n==0){
+
         }
+
     }
 
     public static void main(String[] args) {
@@ -18,6 +16,6 @@ public class Q01 {
         System.out.println("Enter the number :");
         int num = sc.nextInt();
         Q01 one = new Q01();
-        one.find(num,array);
+
     }
 }
